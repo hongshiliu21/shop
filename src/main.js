@@ -31,6 +31,8 @@ Vue.use(Button)
   .use(SwipeItem)
   .use(Lazyload);
 
+import "@/mock/mock.js";
+
 Vue.config.productionTip = false;
 
 new Vue({

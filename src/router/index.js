@@ -24,6 +24,11 @@ const routes = [
     name: "profile",
     component: () => import("@/views/Profile.vue")
   }
+  // {
+  //   path: "/ajax",
+  //   name: "ajax",
+  //   component: () => import("@/views/Ajax.vue")
+  // }
 ];
 
 const router = new VueRouter({
