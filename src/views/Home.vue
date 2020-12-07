@@ -41,7 +41,7 @@
     <!-- 推荐商品 -->
     <div class="variety">
       <h2 class="variety-title">
-        热门商品
+        推荐商品
       </h2>
       <ul>
         <li
@@ -342,8 +342,8 @@ export default {
     // });
     let url3 = url.getVarietyItem;
     axios.get(url3).then(res => {
-      console.log("mock数据221");
-      console.log(res.data);
+      // console.log("mock数据221");
+      // console.log(res.data);
       this.varietyItem = res.data;
     });
   },
